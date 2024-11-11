@@ -6,7 +6,9 @@ def add_to_list(numbers):
     Return:
     - The modified list.
     """
-    pass
+    that=[6]
+    the=numbers+that
+    return the
 
 
 def remove_from_list(numbers):
@@ -17,7 +19,10 @@ def remove_from_list(numbers):
     Return:
     - The modified list.
     """
-    pass
+    for i in numbers:
+        if i==3:
+            numbers.replace(i,'')
+    return numbers
 
 
 def insert_at_beginning(numbers):
@@ -28,7 +33,8 @@ def insert_at_beginning(numbers):
     Return:
     - The modified list.
     """
-    pass
+    numbers.append(0)
+    return numbers.
 
 
 def reverse_list(numbers):
@@ -39,7 +45,7 @@ def reverse_list(numbers):
     Return:
     - The reversed list.
     """
-    pass
+    return numbers[::-1]
 
 
 def create_new_tuple(t):
