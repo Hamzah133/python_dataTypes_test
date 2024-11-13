@@ -40,15 +40,16 @@ def extract_word():
     - The extracted word ('awesome').
     """
     the='Python is awesome!'
-    word=['a','w','e','s','o','m','e']
-    that="awesome"
-    count=0
-    for i in the:
-        if i in word:
-            # word.pop(i)
-            count+=1
-        if count>7:
-            return(that)
+    # word=['a','w','e','s','o','m','e']
+    # that="awesome"
+    # count=0
+    # for i in the:
+    #     if i in word:
+    #         # word.pop(i)
+    #         count+=1
+    #     if count>7:
+    #         return(that)
+    return the[10:17]
            
             
 
@@ -88,4 +89,5 @@ def evaluate_boolean():
     Return:
     - The boolean result of the expression.
     """
-    pass
+    the=not (5 > 3) and (10 == 5 * 2)
+    return the
